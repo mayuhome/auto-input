@@ -1,0 +1,53 @@
+.listDownTable{
+    border:1px solid #ccc;
+    background-color:white;
+    width: 160px;
+    position: absolute;
+    /* left:93px; */
+    /* left:16px; */
+    top:27px;
+    z-index: 99;
+    display: none;
+    height: 160px;
+    overflow-y: scroll;
+}
+.listDownTable tr{
+    height: 18px;
+    margin: 1px auto;
+    padding: 0;
+    width: 126px;
+}
+.listDownTable td{
+    cursor:pointer;
+    height: 18px;
+    padding: 3px 5px;
+    width: 160px;
+}
+.limitHeight{
+    height: 160px;
+    overflow-y: scroll;
+}
+.noLimitHeight{
+    height:auto;
+    overflow-y: auto;
+}
+.showtable {
+    display: block;
+}
+.clearBtn {
+    border-radius: 50%;
+    background-color: #ccc;
+    color: #eeeeee;
+    width: 14px;
+    height: 14px;
+    text-align: center;
+    position: absolute;
+    right:3px;
+    top:7px;
+    pointer-events: auto;
+}
+.clearBtn:hover{
+    background-color: #ace1f1;
+    color: #fff;
+    cursor: pointer;
+}
